@@ -29,6 +29,10 @@ const DogSchema = new mongoose.Schema({
   },
 });
 
+DogSchema.statics.sayName = (dog) => {
+  console.log(dog.name);
+};
+
 DogSchema.statics.findByName = (name, callback) => {
   const search = {
     name,
