@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 module.exports.Cat = require('./Cat.js');
 
 // index.js gets automatically pulled when a folder is required
