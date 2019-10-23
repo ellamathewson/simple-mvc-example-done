@@ -211,7 +211,7 @@ const setDogName = (req, res) => {
     return res.status(400).json({ error: 'name, breed, and age are all required' });
   }
 
-  const name = `${req.body.name}`;
+  const name = `${req.body.dogName}`;
 
   const dogData = {
     name,
