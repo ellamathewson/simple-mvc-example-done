@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-console */
+/* eslint-disable linebreak-style */
 // require mongoose, a popular MongoDB library for nodejs
 // Mongoose connects in the app.js file. Once mongoose is connected,
 // it stays connected across all of the files in this project
